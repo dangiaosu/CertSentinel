@@ -1,0 +1,17 @@
+# CertSentinel Bot - Python Dependencies
+
+# Telegram Bot Framework
+python-telegram-bot==20.7
+
+# HTTP Clients
+aiohttp==3.9.1
+requests==2.31.0
+
+# Domain & SSL Monitoring
+python-whois==0.8.0
+
+# Environment Configuration
+python-dotenv==1.0.0
+
+# Database (SQLite3 is included in Python standard library)
+# No additional database dependencies required
