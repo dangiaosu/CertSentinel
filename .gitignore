@@ -66,6 +66,7 @@ docs/research/*
 logs.txt
 test-ck
 __pycache__
+*.db
 
 # CK meta commands
 prompt.md
