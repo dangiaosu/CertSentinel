@@ -514,10 +514,6 @@ def get_user_preferences(user_id: int) -> Optional[Dict[str, Any]]:
         raise
 
 
-# NOTE: Database initialization should be called explicitly in bot.py main()
-# Auto-init removed to prevent race conditions on concurrent imports
-
-
 if __name__ == '__main__':
     init_db()
     logger.info("Database initialized via direct execution")

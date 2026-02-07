@@ -346,8 +346,8 @@ async def main():
     register_jobs(application)
 
     # Setup signal handlers for graceful shutdown
-    # SECURITY FIX: Get event loop correctly for async task creation
     def signal_handler(sig, frame):
+        """Handle shutdown signals gracefully"""
         logger.info(f"Received signal {sig}, initiating shutdown...")
         try:
             loop = asyncio.get_running_loop()
