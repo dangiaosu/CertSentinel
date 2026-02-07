@@ -182,11 +182,11 @@ def scan_single_port(host: str, port: int, timeout: float = 2.0) -> Dict[str, An
         }
     """
     try:
-        # SECURITY: Validate port number
+        # Validate port range
         if not isinstance(port, int) or port < 1 or port > 65535:
             return {"port": port, "service": "Invalid", "status": "error"}
 
-        # SECURITY: Basic hostname validation
+        # Validate hostname format
         if not host or not isinstance(host, str) or len(host) > 255:
             return {"port": port, "service": "Invalid host", "status": "error"}
 
