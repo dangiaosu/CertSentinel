@@ -130,9 +130,8 @@ async def renew_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
             parse_mode='Markdown'
         )
 
-        # Mock certbot command (for demonstration)
-        # In production, this would run: certbot renew --force-renewal --cert-name domain
-        # SECURITY: Use list instead of shell=True to prevent command injection
+        # Mock certbot renewal command (demonstration only)
+        # Production command: certbot renew --force-renewal --cert-name domain
         result = subprocess.run(
             ['echo', f"Mock certbot renew for {domain}"],
             capture_output=True,
