@@ -259,9 +259,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/certsentinel-bot/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/certsentinel-bot/discussions)
-- **Security**: Report security vulnerabilities privately to security@yourdomain.com
+- **Issues**: [GitHub Issues](https://github.com/dangiaosu/certsentinel-bot/issues)
+- **Security**: Report security vulnerabilities privately to dangs@airdropvn.com
 
 ---
 
