@@ -10,11 +10,11 @@ CertSentinel is a free, self-hosted, open-source alternative to proprietary moni
 ---
 
 **🌍 Who is this for?**
-- ** Open Source Maintainers: Monitor the uptime and SSL status of your open-source project's documentation, API endpoints, and demo sites for free.
+- **Open Source Maintainers**: Monitor the uptime and SSL status of your open-source project's documentation, API endpoints, and demo sites for free.
 
-- ** Freelance Developers & Agencies: Keep track of dozens of client websites and receive instant alerts before a client's SSL expires.
+- **Freelance Developers & Agencies**: Keep track of dozens of client websites and receive instant alerts before a client's SSL expires.
 
-- ** SME DevOps Teams: A lightweight ChatOps solution to bring infrastructure security alerts directly to your team's existing Telegram workflows without complex setups.
+- **SME DevOps Teams**: A lightweight ChatOps solution to bring infrastructure security alerts directly to your team's existing Telegram workflows without complex setups.
 
 **💡 Why Open Source?**
 Infrastructure monitoring shouldn't be hidden behind expensive paywalls. By making CertSentinel open-source, we aim to provide a transparent, community-driven tool where developers can contribute custom security scanners, integrate with other alerting platforms, and maintain full data privacy by self-hosting.
