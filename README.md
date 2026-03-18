@@ -5,9 +5,19 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-CertSentinel is a comprehensive Telegram bot designed for developers and system administrators to monitor their infrastructure. Track SSL certificate expiry, website uptime, domain registration, and run security audits - all from Telegram.
+CertSentinel is a free, self-hosted, open-source alternative to proprietary monitoring services like UptimeRobot or Pingdom. Designed specifically for ChatOps via Telegram, it empowers any DevOps team, freelance developer, or open-source maintainer worldwide to monitor their infrastructure's health, SSL certificates, and security posture without vendor lock-in or subscription fees.
 
 ---
+
+**🌍 Who is this for?**
+- ** Open Source Maintainers: Monitor the uptime and SSL status of your open-source project's documentation, API endpoints, and demo sites for free.
+
+- ** Freelance Developers & Agencies: Keep track of dozens of client websites and receive instant alerts before a client's SSL expires.
+
+- ** SME DevOps Teams: A lightweight ChatOps solution to bring infrastructure security alerts directly to your team's existing Telegram workflows without complex setups.
+
+**💡 Why Open Source?**
+Infrastructure monitoring shouldn't be hidden behind expensive paywalls. By making CertSentinel open-source, we aim to provide a transparent, community-driven tool where developers can contribute custom security scanners, integrate with other alerting platforms, and maintain full data privacy by self-hosting.
 
 ## ✨ Features
 
@@ -272,7 +282,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [ ] Prometheus metrics export
 - [ ] Docker image and Kubernetes manifests
 - [ ] Multi-language support
-
+- [ ] Webhook API for CI/CD pipeline triggers
+- [ ] Community-contributed security scanning modules (Plugin system)
+- [ ] Multi-tenant support for larger organizations
 ---
 
 **Made with ❤️ for DevOps Engineers**
